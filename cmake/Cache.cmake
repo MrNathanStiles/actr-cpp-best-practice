@@ -1,5 +1,5 @@
 # Enable cache if available
-function(myproject_enable_cache)
+function(actr_cpp_best_practice_enable_cache)
   set(CACHE_OPTION
       "ccache"
       CACHE STRING "Compiler cache to be used")
